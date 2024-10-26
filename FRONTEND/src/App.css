@@ -1,4 +1,6 @@
 #root {
+  @import url('https://fonts.googleapis.com/css2?family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap');
+  font-family: "Martel Sans", sans-serif;
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -6,13 +8,18 @@
 }
 
 .logo {
-  height: 6em;
-  padding: 1.5em;
+  height: 8em;
+  padding: 1.0em;
   will-change: filter;
   transition: filter 300ms;
+  margin: 3pc;
+  
 }
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
+  height: 45px;
+  width: 119px;
+  
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
@@ -42,4 +49,5 @@
 }
 button{
   color: black;
+  background-color:#646cffaa ;
 }

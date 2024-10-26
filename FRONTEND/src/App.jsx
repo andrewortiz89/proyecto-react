@@ -24,6 +24,16 @@ function cambiarcontraseña(evento){
 
   return (
     <>
+ <header>
+
+
+ <img src="/img/logo prueba 2 fin.png"  class="logo"/> 
+    
+
+
+    
+</header>
+
       <h1>Inicio de Sesión</h1>
       <input type="text" name='usuario' id='usuario' placeholder='Ingrese un usuario' value={usuario}evento onChange={cambiarusuario}/>
       <input type="password" name='contraseña' id='contraseña' placeholder='Ingrese una contraseña' value={contraseña} evento onChange={cambiarcontraseña} />
